@@ -1,0 +1,17 @@
+1687588156195	geckodriver	INFO	Listening on 127.0.0.1:19373
+1687588157236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\PHUONG~1\\AppData\\Local\\Temp\\rust_mozprofileZJEI2p"
+1687588157927	Marionette	INFO	Marionette enabled
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2477:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2456:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2415:11
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PHUONG~1\\AppData\\Local\\Temp\\rust_mozprofileZJEI2p\\search.json.mozlz4", (void 0)))
+1687588161028	Marionette	INFO	Listening on port 57789
+Read port: 57789
+1687588161116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

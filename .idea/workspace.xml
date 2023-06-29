@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="493b3e48-3f97-42ed-82ba-306544f9e475" name="Changes" comment="maven hybrid framework">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/02bf28ff-9538-4121-a896-d29537bd35fc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/21572633-540f-4fc1-831d-05781f33007f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/236bc98b-7e43-486a-a4f2-58d8991cb333-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/25dd27e5-b7e9-4e5a-98c4-67d5287dd753-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/290a324d-87bd-42ab-b054-0075a46316e2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/4ff64a9c-4281-473e-8a65-fd1a7c298c03-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/50302306-9235-4cac-890e-4b38d69f2030-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/50aecb00-39fc-4a54-a277-eb96dbce4ace-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/556ade27-6930-41e5-a46e-4abcf48277d9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/5c820c84-e91c-42a3-a14f-e97570a9a7aa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/67cce530-73cb-418f-ba0b-12be70ef359a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/697e61a8-78b4-4679-b9bb-5f9a021e6ecb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/87c3c910-2688-4358-8967-e9dfb4699377-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/913119f9-345e-495e-a31c-4a6e0d046b1b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/a3b1adc9-6515-4f97-91b1-fcc3f30dfa70-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/ae8b315a-c03e-4107-932b-c6c4744b2a2c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/c1907581-0147-469e-8ed4-a168dd71b522-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/ee28b4b2-556d-4d82-b435-ca57567ccfe4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserDriverLogs/firefox.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlExtentReport/ExtentReportV5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/adminPageUIs/AdminDashboardPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/adminPageUIs/AdminLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/adminPageUIs/AdminMenuItemPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/adminPageUIs/AdminPostPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/userPageUIs/WpPostPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/userPageUIs/WpSearchPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageUIsWordpress/userPageUIs/WpUserHomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/BrowserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/MethodListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/TestNGAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/VerificationFailures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageFactory/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageFactory/CustomerPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageFactory/HomePageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageFactory/LoginPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageFactory/RegisterPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AdminDasboardPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AdminLoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/JqueryDataTablePageObject/HomePagePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/JqueryDataTablePageObject/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserBooksPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserCategoriesSideBarPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserComputersPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserCustomerInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserCustomerPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserDesktopsPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserElectronicsPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserHomePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserLoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserMyPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserNoteBooksPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserOrdersPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserRegisterPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/UserRewardPointPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/facebook/LoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/facebook/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/sauceDemoSortData/InventoryPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/sauceDemoSortData/LoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/sauceDemoSortData/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/techPandaPageObject/HomePagePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/techPandaPageObject/LoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/techPandaPageObject/MyAccountPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/techPandaPageObject/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/PageGenerateManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/admin/AdminDashboardPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/admin/AdminLoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/admin/AdminMenuItemPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/admin/AdminPostPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/user/WpUserHomePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/user/WpUserPostPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/wordpressPageObject/user/WpUserSearchPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsFacebook/LoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsJquery/HomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsJquery/UploadFilesPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/AdminDashboardPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/AdminLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/UserBasePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/UserCategoriesSideBarPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/UserCustomerPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/UserHomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/UserLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsNopCommerce/UserRegisterPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsSauceDemoSortData/InventoryPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsSauceDemoSortData/LoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsTechPanda/HomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsTechPanda/LoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUIsTechPanda/MyAccountPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reportConfig/AllureTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reportConfig/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reportConfig/ExtentTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reportConfig/ReportNGListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/retryConfig/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/untilities/DataFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/untilities/ExcelConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/untilities/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/untilities/PropertiesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/facebook/Level_18_Element_Undisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jquery/dataTable/Level_12_DataTable_PI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jquery/dataTable/Level_12_DataTable_PII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jquery/dataTable/Level_13_Upload_Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_01_DRY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_02_BasePage_01_Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_02_BasePage_02_Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_02_BasePage_03_Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_03_PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_04_Multi_Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_05_Page_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_06_Page_Generator_Manager_C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_06_Page_Generator_Manager_C2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_06_Page_Generator_Manager_C3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_07_Switch_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_08_Navigate_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_09_Switch_User_Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_10_Dynamic_Locator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_11_Global_Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_14_Assert_Verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_15_Log_ReportNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_16_Extent_Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_17_Allure_Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_19_Pattern_Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_20_Faker_Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_21_Data_Test_JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/sortData/Level_20_Sort_Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techpanda/cookie/CustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techpanda/cookie/common_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testdata/AccountData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/admin/Admin_01_Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunAllTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunSauceDemoSortDataTestcases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunTestcaseJQuery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunTestcases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunTestcasesFacebook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunTestcasesTechPanda.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RunWordpressTestcases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/dataTest/Account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/dataTest/Test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testScriptLogs/NopCommerce.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testScriptLogs/NopCommerce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/anh1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/anh3.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RrafACmu3ayt8kvPTTW6cw52Go" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27442652",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Phuong Chocopie\PHUONGTT\Fullstack_selenium_Java\04_Maven Hybrid Framework\Maven-Hybrid-framework" />
+      <recent name="C:\Users\Phuong Chocopie\PHUONGTT\Fullstack_selenium_Java\04_Maven Hybrid Framework\Maven-Hybrid-framework\src\test\resources" />
+      <recent name="C:\Users\Phuong Chocopie\PHUONGTT\Fullstack_selenium_Java\04_Maven Hybrid Framework\Maven-Hybrid-framework\src\test\java" />
+      <recent name="C:\Users\Phuong Chocopie\PHUONGTT\Fullstack_selenium_Java\04_Maven Hybrid Framework\Maven-Hybrid-framework\src\test" />
+      <recent name="C:\Users\Phuong Chocopie\PHUONGTT\Fullstack_selenium_Java\04_Maven Hybrid Framework\Maven-Hybrid-framework\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testdata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunTestcases.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven-Hybrid-Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RunTestcases.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven-Hybrid-Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunTestcases.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="493b3e48-3f97-42ed-82ba-306544f9e475" name="Changes" comment="" />
+      <created>1688010757882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688010757882</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="maven hybrid framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven hybrid framework" />
+  </component>
+</project>

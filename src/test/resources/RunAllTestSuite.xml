@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerce">
+
+  <listeners>
+    <listener class-name="commons.MethodListener" />
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+  </listeners>
+
+  <suite-files>
+    <suite-file path="RunTestcases.xml" />
+    <suite-file path="RunTestcaseJQuery.xml" />
+  </suite-files>
+
+
+</suite> <!-- Suite -->

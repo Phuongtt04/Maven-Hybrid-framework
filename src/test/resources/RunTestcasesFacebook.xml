@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Facebook">
+
+  <listeners>
+    <listener class-name="commons.MethodListener" />
+<!--    <listener class-name="reportConfig.ReportNGListener" />-->
+<!--    <listener class-name="reportConfig.ExtentTestListener" />-->
+    <listener class-name="reportConfig.AllureTestListener" />
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+  </listeners>
+
+  <parameter name = "userUrl" value = "https://www.facebook.com/" />
+  <!-- chạy trên firefox -->
+  <test name="Run on Firefox browser">
+    <parameter name = "browser" value = "Firefox" />
+    <classes>
+      <class name="com.facebook.Level_18_Element_Undisplay"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

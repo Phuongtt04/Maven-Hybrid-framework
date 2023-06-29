@@ -1,0 +1,506 @@
+[2023-06-06 11:17:40,112] Register_01 - Step 01: Click Register link
+[2023-06-06 11:17:41,190] Register_01 - Step 02: Click Register button
+[2023-06-06 11:17:41,528] Register_01 - Step 03: Verify error message display
+[2023-06-06 11:17:42,510] Register_02 - Step 01: Click Register link
+[2023-06-06 11:17:43,024] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-06 11:17:43,210] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-06 11:17:43,364] Register_02 - Step 04: Enter to Email textbox
+[2023-06-06 11:17:43,490] Register_02 - Step 05: Enter to Password textbox
+[2023-06-06 11:17:43,605] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 11:17:43,745] Register_02 - Step 07: Clịck Register button
+[2023-06-06 11:17:44,068] Register_02 - Step 08: Verify errorr messgae display
+[2023-06-06 11:19:28,149] Register_01 - Step 01: Click Register link
+[2023-06-06 11:19:29,411] Register_01 - Step 02: Click Register button
+[2023-06-06 11:19:29,762] Register_01 - Step 03: Verify error message display
+[2023-06-06 11:19:31,692] Register_02 - Step 01: Click Register link
+[2023-06-06 11:19:32,180] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-06 11:19:32,356] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-06 11:19:32,505] Register_02 - Step 04: Enter to Email textbox
+[2023-06-06 11:19:32,646] Register_02 - Step 05: Enter to Password textbox
+[2023-06-06 11:19:32,767] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 11:19:32,913] Register_02 - Step 07: Click Register button
+[2023-06-06 11:19:33,233] Register_02 - Step 08: Verify error message display
+[2023-06-06 15:36:22,323] Register_01 - Step 01: Click Register link
+[2023-06-06 15:36:23,006] Register_01 - Step 02: Click Register button
+[2023-06-06 15:36:23,354] Register_01 - Step 03: Verify error message display
+[2023-06-06 15:36:24,196] Register_02 - Step 01: Click Register link
+[2023-06-06 15:36:24,672] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-06 15:36:24,820] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-06 15:36:24,936] Register_02 - Step 04: Enter to Email textbox
+[2023-06-06 15:36:25,048] Register_02 - Step 05: Enter to Password textbox
+[2023-06-06 15:36:25,189] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:36:25,305] Register_02 - Step 07: Click Register button
+[2023-06-06 15:36:25,603] Register_02 - Step 08: Verify error message display
+[2023-06-06 15:36:26,847] Register_03 - Step 01: Click Register link
+[2023-06-06 15:36:27,596] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-06 15:36:27,780] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-06 15:36:27,939] Register_03 - Step 04: Enter to Email textbox
+[2023-06-06 15:36:28,123] Register_03 - Step 05: Enter to Password textbox
+[2023-06-06 15:36:28,285] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:36:28,416] Register_03 - Step 07: Enter to Register button
+[2023-06-06 15:36:29,230] Register_03 - Step 08: Verify error message display
+[2023-06-06 15:36:29,914] Register_04 - Step 01: Click Register link
+[2023-06-06 15:36:30,543] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-06 15:36:30,775] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-06 15:36:30,932] Register_04 - Step 04: Enter to Email textbox
+[2023-06-06 15:36:31,103] Register_04 - Step 05: Enter to Password textbox
+[2023-06-06 15:36:31,315] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:36:31,513] Register_04 - Step 07: Enter to Register button
+[2023-06-06 15:36:32,315] Register_04 - Step 08: Verify error message display
+[2023-06-06 15:36:32,983] Register_05 - Step 01: Click Register link
+[2023-06-06 15:36:33,609] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-06 15:36:33,822] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-06 15:36:33,962] Register_05 - Step 04: Enter to Email textbox
+[2023-06-06 15:36:34,130] Register_05 - Step 05: Enter to Password textbox
+[2023-06-06 15:36:34,277] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:36:34,431] Register_05 - Step 07: Enter to Register button
+[2023-06-06 15:36:35,427] Register_05 - Step 08: Verify message display
+[2023-06-06 15:36:36,125] Register_06 - Step 01: Click Login link
+[2023-06-06 15:36:36,737] Register_06 - Step 02: Enter to Email textbox
+[2023-06-06 15:36:36,970] Register_06 - Step 03: Enter to Password textbox
+[2023-06-06 15:36:37,155] Register_06 - Step 04: Enter to Login button
+[2023-06-06 15:36:38,039] Register_06 - Step 05: Enter to Login button
+[2023-06-06 15:36:38,646] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-06 15:36:38,790] Register_06 - Step 07: Verify error message display
+[2023-06-06 15:36:38,878] Register_06 - Step 08: Verify email display:PhuongTest714@gmail.com
+[2023-06-06 15:54:20,030] Register_01 - Step 01: Click Register link
+[2023-06-06 15:54:25,554] Register_01 - Step 02: Click Register button
+[2023-06-06 15:54:29,514] Register_01 - Step 03: Verify error message First name display
+[2023-06-06 15:54:29,647] Register_01 - Step 04: Verify error message Last name display
+[2023-06-06 15:54:29,741] Register_01 - Step 05: Verify error message Email display
+[2023-06-06 15:54:29,836] Register_01 - Step 05: Verify error message Password display
+[2023-06-06 15:54:29,935] Register_01 - Step 05: Verify error message Confirm display
+[2023-06-06 15:54:34,493] Register_02 - Step 01: Click Register link
+[2023-06-06 15:54:37,754] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-06 15:54:37,949] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-06 15:54:38,105] Register_02 - Step 04: Enter to Email textbox
+[2023-06-06 15:54:38,251] Register_02 - Step 05: Enter to Password textbox
+[2023-06-06 15:54:38,381] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:54:38,531] Register_02 - Step 07: Click Register button
+[2023-06-06 15:54:38,883] Register_02 - Step 08: Verify error message display
+[2023-06-06 15:54:43,463] Register_03 - Step 01: Click Register link
+[2023-06-06 15:54:44,708] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-06 15:54:44,856] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-06 15:54:44,996] Register_03 - Step 04: Enter to Email textbox
+[2023-06-06 15:54:45,141] Register_03 - Step 05: Enter to Password textbox
+[2023-06-06 15:54:45,307] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:54:45,438] Register_03 - Step 07: Enter to Register button
+[2023-06-06 15:54:46,221] Register_03 - Step 08: Verify error message display
+[2023-06-06 15:54:50,643] Register_04 - Step 01: Click Register link
+[2023-06-06 15:54:54,533] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-06 15:54:54,694] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-06 15:54:54,833] Register_04 - Step 04: Enter to Email textbox
+[2023-06-06 15:54:54,995] Register_04 - Step 05: Enter to Password textbox
+[2023-06-06 15:54:55,139] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:54:55,294] Register_04 - Step 07: Enter to Register button
+[2023-06-06 15:54:56,095] Register_04 - Step 08: Verify error message display
+[2023-06-06 15:54:59,247] Register_05 - Step 01: Click Register link
+[2023-06-06 15:55:02,891] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-06 15:55:03,030] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-06 15:55:03,158] Register_05 - Step 04: Enter to Email textbox
+[2023-06-06 15:55:03,293] Register_05 - Step 05: Enter to Password textbox
+[2023-06-06 15:55:03,399] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 15:55:03,537] Register_05 - Step 07: Enter to Register button
+[2023-06-06 15:55:08,879] Register_05 - Step 08: Verify message display
+[2023-06-06 15:55:24,540] Register_06 - Step 01: Click Login link
+[2023-06-06 16:29:38,629] Register_01 - Step 01: Click Register link
+[2023-06-06 16:29:39,981] Register_01 - Step 02: Click Register button
+[2023-06-06 16:29:40,483] Register_01 - Step 03: Verify error message First name display
+[2023-06-06 16:29:40,586] Register_01 - Step 04: Verify error message Last name display
+[2023-06-06 16:29:40,688] Register_01 - Step 05: Verify error message Email display
+[2023-06-06 16:29:40,788] Register_01 - Step 05: Verify error message Password display
+[2023-06-06 16:29:40,878] Register_01 - Step 05: Verify error message Confirm display
+[2023-06-06 16:29:41,729] Register_02 - Step 01: Click Register link
+[2023-06-06 16:29:42,301] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-06 16:29:42,469] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-06 16:29:42,630] Register_02 - Step 04: Enter to Email textbox
+[2023-06-06 16:29:42,765] Register_02 - Step 05: Enter to Password textbox
+[2023-06-06 16:29:42,898] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:29:43,032] Register_02 - Step 07: Click Register button
+[2023-06-06 16:29:43,335] Register_02 - Step 08: Verify error message display
+[2023-06-06 16:29:43,984] Register_03 - Step 01: Click Register link
+[2023-06-06 16:29:44,537] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-06 16:29:44,755] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-06 16:29:44,909] Register_03 - Step 04: Enter to Email textbox
+[2023-06-06 16:29:45,067] Register_03 - Step 05: Enter to Password textbox
+[2023-06-06 16:29:45,201] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:29:45,337] Register_03 - Step 07: Enter to Register button
+[2023-06-06 16:29:46,152] Register_03 - Step 08: Verify error message display
+[2023-06-06 16:29:47,133] Register_04 - Step 01: Click Register link
+[2023-06-06 16:29:47,751] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-06 16:29:48,012] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-06 16:29:48,183] Register_04 - Step 04: Enter to Email textbox
+[2023-06-06 16:29:48,339] Register_04 - Step 05: Enter to Password textbox
+[2023-06-06 16:29:48,494] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:29:48,627] Register_04 - Step 07: Enter to Register button
+[2023-06-06 16:29:49,422] Register_04 - Step 08: Verify error message display
+[2023-06-06 16:29:50,183] Register_05 - Step 01: Click Register link
+[2023-06-06 16:29:50,820] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-06 16:29:51,058] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-06 16:29:51,217] Register_05 - Step 04: Enter to Email textbox
+[2023-06-06 16:29:51,381] Register_05 - Step 05: Enter to Password textbox
+[2023-06-06 16:29:51,557] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:29:51,713] Register_05 - Step 07: Enter to Register button
+[2023-06-06 16:29:52,785] Register_05 - Step 08: Verify message display
+[2023-06-06 16:29:53,471] Register_06 - Step 01: Click Login link
+[2023-06-06 16:29:54,087] Register_06 - Step 02: Enter to Email textbox
+[2023-06-06 16:29:54,324] Register_06 - Step 03: Enter to Password textbox
+[2023-06-06 16:29:54,485] Register_06 - Step 04: Enter to Login button
+[2023-06-06 16:29:55,478] Register_06 - Step 05: Enter to Login button
+[2023-06-06 16:29:56,124] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-06 16:29:56,317] Register_06 - Step 07: Verify error message display
+[2023-06-06 16:29:56,401] Register_06 - Step 08: Verify email display:PhuongTest974@gmail.com
+[2023-06-06 16:33:15,460] Register_01 - Step 01: Click Register link
+[2023-06-06 16:33:16,828] Register_01 - Step 02: Click Register button
+[2023-06-06 16:33:17,182] Register_01 - Step 03: Verify error message First name display
+[2023-06-06 16:33:17,290] Register_01 - Step 04: Verify error message Last name display
+[2023-06-06 16:33:17,383] Register_01 - Step 05: Verify error message Email display
+[2023-06-06 16:33:17,492] Register_01 - Step 05: Verify error message Password display
+[2023-06-06 16:33:18,467] Register_02 - Step 01: Click Register link
+[2023-06-06 16:33:18,954] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-06 16:33:19,182] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-06 16:33:19,326] Register_02 - Step 04: Enter to Email textbox
+[2023-06-06 16:33:19,476] Register_02 - Step 05: Enter to Password textbox
+[2023-06-06 16:33:19,630] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:33:19,772] Register_02 - Step 07: Click Register button
+[2023-06-06 16:33:20,108] Register_02 - Step 08: Verify error message display
+[2023-06-06 16:33:20,832] Register_03 - Step 01: Click Register link
+[2023-06-06 16:33:21,421] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-06 16:33:21,567] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-06 16:33:21,703] Register_03 - Step 04: Enter to Email textbox
+[2023-06-06 16:33:21,869] Register_03 - Step 05: Enter to Password textbox
+[2023-06-06 16:33:21,994] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:33:22,112] Register_03 - Step 07: Enter to Register button
+[2023-06-06 16:33:22,922] Register_03 - Step 08: Verify error message display
+[2023-06-06 16:33:23,564] Register_04 - Step 01: Click Register link
+[2023-06-06 16:33:24,098] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-06 16:33:24,248] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-06 16:33:24,388] Register_04 - Step 04: Enter to Email textbox
+[2023-06-06 16:33:24,520] Register_04 - Step 05: Enter to Password textbox
+[2023-06-06 16:33:24,629] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:33:24,751] Register_04 - Step 07: Enter to Register button
+[2023-06-06 16:33:25,548] Register_04 - Step 08: Verify error message display
+[2023-06-06 16:33:26,130] Register_05 - Step 01: Click Register link
+[2023-06-06 16:33:26,738] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-06 16:33:26,878] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-06 16:33:27,036] Register_05 - Step 04: Enter to Email textbox
+[2023-06-06 16:33:27,189] Register_05 - Step 05: Enter to Password textbox
+[2023-06-06 16:33:27,300] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-06 16:33:27,439] Register_05 - Step 07: Enter to Register button
+[2023-06-06 16:33:28,483] Register_05 - Step 08: Verify message display
+[2023-06-06 16:33:29,101] Register_06 - Step 01: Click Login link
+[2023-06-06 16:33:29,727] Register_06 - Step 02: Enter to Email textbox
+[2023-06-06 16:33:29,908] Register_06 - Step 03: Enter to Password textbox
+[2023-06-06 16:33:30,053] Register_06 - Step 04: Enter to Login button
+[2023-06-06 16:33:30,916] Register_06 - Step 05: Enter to Login button
+[2023-06-06 16:33:31,453] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-06 16:33:31,566] Register_06 - Step 07: Verify error message display
+[2023-06-07 21:58:32,707] Register_01 - Step 01: Click Register link
+[2023-06-07 21:58:33,987] Register_01 - Step 02: Click Register button
+[2023-06-07 21:58:34,335] Register_01 - Step 03: Verify error message First name display
+[2023-06-07 21:58:34,443] Register_01 - Step 04: Verify error message Last name display
+[2023-06-07 21:58:34,537] Register_01 - Step 05: Verify error message Email display
+[2023-06-07 21:58:34,629] Register_01 - Step 05: Verify error message Password display
+[2023-06-07 21:58:35,501] Register_02 - Step 01: Click Register link
+[2023-06-07 21:58:36,050] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-07 21:58:36,260] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-07 21:58:36,435] Register_02 - Step 04: Enter to Email textbox
+[2023-06-07 21:58:36,582] Register_02 - Step 05: Enter to Password textbox
+[2023-06-07 21:58:36,727] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 21:58:36,853] Register_02 - Step 07: Click Register button
+[2023-06-07 21:58:37,197] Register_02 - Step 08: Verify error message display
+[2023-06-07 21:58:37,770] Register_03 - Step 01: Click Register link
+[2023-06-07 21:58:38,277] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-07 21:58:38,422] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-07 21:58:38,586] Register_03 - Step 04: Enter to Email textbox
+[2023-06-07 21:58:38,746] Register_03 - Step 05: Enter to Password textbox
+[2023-06-07 21:58:38,879] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 21:58:39,013] Register_03 - Step 07: Enter to Register button
+[2023-06-07 21:58:39,815] Register_03 - Step 08: Verify error message display
+[2023-06-07 21:58:40,386] Register_04 - Step 01: Click Register link
+[2023-06-07 21:58:40,938] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-07 21:58:41,088] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-07 21:58:41,220] Register_04 - Step 04: Enter to Email textbox
+[2023-06-07 21:58:41,381] Register_04 - Step 05: Enter to Password textbox
+[2023-06-07 21:58:41,510] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 21:58:41,626] Register_04 - Step 07: Enter to Register button
+[2023-06-07 21:58:42,420] Register_04 - Step 08: Verify error message display
+[2023-06-07 21:58:43,368] Register_05 - Step 01: Click Register link
+[2023-06-07 21:58:43,908] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-07 21:58:44,053] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-07 21:58:44,217] Register_05 - Step 04: Enter to Email textbox
+[2023-06-07 21:58:44,381] Register_05 - Step 05: Enter to Password textbox
+[2023-06-07 21:58:44,525] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 21:58:44,667] Register_05 - Step 07: Enter to Register button
+[2023-06-07 21:58:45,574] Register_05 - Step 08: Verify message display
+[2023-06-07 21:58:46,162] Register_06 - Step 01: Click Login link
+[2023-06-07 21:58:46,673] Register_06 - Step 02: Enter to Email textbox
+[2023-06-07 21:58:46,814] Register_06 - Step 03: Enter to Password textbox
+[2023-06-07 21:58:46,944] Register_06 - Step 04: Enter to Login button
+[2023-06-07 21:58:47,848] Register_06 - Step 05: Enter to Login button
+[2023-06-07 21:58:48,300] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-07 21:58:48,403] Register_06 - Step 07: Verify error message display
+[2023-06-07 22:07:56,698] Register_01 - Step 01: Click Register link
+[2023-06-07 22:07:57,917] Register_01 - Step 02: Click Register button
+[2023-06-07 22:07:58,247] Register_01 - Step 03: Verify error message First name display
+[2023-06-07 22:07:58,355] Register_01 - Step 04: Verify error message Last name display
+[2023-06-07 22:07:58,450] Register_01 - Step 05: Verify error message Email display
+[2023-06-07 22:07:58,545] Register_01 - Step 05: Verify error message Password display
+[2023-06-07 22:07:59,325] Register_02 - Step 01: Click Register link
+[2023-06-07 22:07:59,820] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-07 22:08:00,005] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-07 22:08:00,147] Register_02 - Step 04: Enter to Email textbox
+[2023-06-07 22:08:00,258] Register_02 - Step 05: Enter to Password textbox
+[2023-06-07 22:08:00,364] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 22:08:00,467] Register_02 - Step 07: Click Register button
+[2023-06-07 22:08:00,777] Register_02 - Step 08: Verify error message display
+[2023-06-07 22:08:01,461] Register_03 - Step 01: Click Register link
+[2023-06-07 22:08:02,541] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-07 22:08:03,459] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-07 22:08:03,796] Register_03 - Step 04: Enter to Email textbox
+[2023-06-07 22:08:04,279] Register_03 - Step 05: Enter to Password textbox
+[2023-06-07 22:08:04,518] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 22:08:04,723] Register_03 - Step 07: Enter to Register button
+[2023-06-07 22:08:05,575] Register_03 - Step 08: Verify error message display
+[2023-06-07 22:08:06,115] Register_04 - Step 01: Click Register link
+[2023-06-07 22:08:06,578] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-07 22:08:06,708] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-07 22:08:06,848] Register_04 - Step 04: Enter to Email textbox
+[2023-06-07 22:08:06,981] Register_04 - Step 05: Enter to Password textbox
+[2023-06-07 22:08:07,081] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 22:08:07,235] Register_04 - Step 07: Enter to Register button
+[2023-06-07 22:08:08,062] Register_04 - Step 08: Verify error message display
+[2023-06-07 22:08:08,725] Register_05 - Step 01: Click Register link
+[2023-06-07 22:08:09,213] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-07 22:08:09,363] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-07 22:08:09,508] Register_05 - Step 04: Enter to Email textbox
+[2023-06-07 22:08:09,664] Register_05 - Step 05: Enter to Password textbox
+[2023-06-07 22:08:09,808] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-07 22:08:09,922] Register_05 - Step 07: Enter to Register button
+[2023-06-07 22:08:10,853] Register_05 - Step 08: Verify message display
+[2023-06-07 22:08:11,491] Register_06 - Step 01: Click Login link
+[2023-06-07 22:08:11,984] Register_06 - Step 02: Enter to Email textbox
+[2023-06-07 22:08:12,135] Register_06 - Step 03: Enter to Password textbox
+[2023-06-07 22:08:12,273] Register_06 - Step 04: Enter to Login button
+[2023-06-07 22:08:13,001] Register_06 - Step 05: Enter to Login button
+[2023-06-07 22:08:13,467] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-07 22:08:13,555] Register_06 - Step 07: Verify error message display
+[2023-06-08 12:19:08,172] Register_01 - Step 01: Click Register link
+[2023-06-08 12:19:10,436] Register_01 - Step 02: Click Register button
+[2023-06-08 12:19:10,793] Register_01 - Step 03: Verify error message First name display
+[2023-06-08 12:19:10,899] Register_01 - Step 04: Verify error message Last name display
+[2023-06-08 12:19:10,994] Register_01 - Step 05: Verify error message Email display
+[2023-06-08 12:19:11,085] Register_01 - Step 05: Verify error message Password display
+[2023-06-08 12:19:12,937] Register_02 - Step 01: Click Register link
+[2023-06-08 12:19:13,647] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-08 12:19:13,832] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-08 12:19:13,988] Register_02 - Step 04: Enter to Email textbox
+[2023-06-08 12:19:14,148] Register_02 - Step 05: Enter to Password textbox
+[2023-06-08 12:19:14,291] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:19:14,421] Register_02 - Step 07: Click Register button
+[2023-06-08 12:19:14,719] Register_02 - Step 08: Verify error message display
+[2023-06-08 12:19:15,296] Register_03 - Step 01: Click Register link
+[2023-06-08 12:19:16,164] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-08 12:19:16,296] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-08 12:19:16,424] Register_03 - Step 04: Enter to Email textbox
+[2023-06-08 12:19:16,577] Register_03 - Step 05: Enter to Password textbox
+[2023-06-08 12:19:16,716] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:19:16,845] Register_03 - Step 07: Enter to Register button
+[2023-06-08 12:19:17,646] Register_03 - Step 08: Verify error message display
+[2023-06-08 12:19:18,268] Register_04 - Step 01: Click Register link
+[2023-06-08 12:19:18,760] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-08 12:19:18,921] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-08 12:19:19,073] Register_04 - Step 04: Enter to Email textbox
+[2023-06-08 12:19:19,239] Register_04 - Step 05: Enter to Password textbox
+[2023-06-08 12:19:19,430] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:19:19,586] Register_04 - Step 07: Enter to Register button
+[2023-06-08 12:19:20,373] Register_04 - Step 08: Verify error message display
+[2023-06-08 12:19:20,968] Register_05 - Step 01: Click Register link
+[2023-06-08 12:19:21,547] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-08 12:19:21,703] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-08 12:19:21,859] Register_05 - Step 04: Enter to Email textbox
+[2023-06-08 12:19:22,017] Register_05 - Step 05: Enter to Password textbox
+[2023-06-08 12:19:22,167] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:19:22,317] Register_05 - Step 07: Enter to Register button
+[2023-06-08 12:19:23,366] Register_05 - Step 08: Verify message display
+[2023-06-08 12:19:24,017] Register_06 - Step 01: Click Login link
+[2023-06-08 12:19:24,608] Register_06 - Step 02: Enter to Email textbox
+[2023-06-08 12:19:24,749] Register_06 - Step 03: Enter to Password textbox
+[2023-06-08 12:19:24,874] Register_06 - Step 04: Enter to Login button
+[2023-06-08 12:19:25,731] Register_06 - Step 05: Enter to Login button
+[2023-06-08 12:19:26,230] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-08 12:19:26,321] Register_06 - Step 07: Verify error message display
+[2023-06-08 12:23:58,996] Register_01 - Step 01: Click Register link
+[2023-06-08 12:24:00,491] Register_01 - Step 02: Click Register button
+[2023-06-08 12:24:00,868] Register_01 - Step 03: Verify error message First name display
+[2023-06-08 12:24:00,976] Register_01 - Step 04: Verify error message Last name display
+[2023-06-08 12:24:01,063] Register_01 - Step 05: Verify error message Email display
+[2023-06-08 12:24:01,155] Register_01 - Step 05: Verify error message Password display
+[2023-06-08 12:24:02,087] Register_02 - Step 01: Click Register link
+[2023-06-08 12:24:02,816] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-08 12:24:02,980] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-08 12:24:03,138] Register_02 - Step 04: Enter to Email textbox
+[2023-06-08 12:24:03,294] Register_02 - Step 05: Enter to Password textbox
+[2023-06-08 12:24:03,455] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:24:03,596] Register_02 - Step 07: Click Register button
+[2023-06-08 12:24:03,946] Register_02 - Step 08: Verify error message display
+[2023-06-08 12:24:04,530] Register_03 - Step 01: Click Register link
+[2023-06-08 12:24:05,059] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-08 12:24:05,229] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-08 12:24:05,388] Register_03 - Step 04: Enter to Email textbox
+[2023-06-08 12:24:05,557] Register_03 - Step 05: Enter to Password textbox
+[2023-06-08 12:24:05,699] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:24:05,843] Register_03 - Step 07: Enter to Register button
+[2023-06-08 12:24:06,633] Register_03 - Step 08: Verify error message display
+[2023-06-08 12:24:07,370] Register_04 - Step 01: Click Register link
+[2023-06-08 12:24:07,842] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-08 12:24:08,009] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-08 12:24:08,143] Register_04 - Step 04: Enter to Email textbox
+[2023-06-08 12:24:08,284] Register_04 - Step 05: Enter to Password textbox
+[2023-06-08 12:24:08,408] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:24:08,529] Register_04 - Step 07: Enter to Register button
+[2023-06-08 12:24:09,325] Register_04 - Step 08: Verify error message display
+[2023-06-08 12:24:09,928] Register_05 - Step 01: Click Register link
+[2023-06-08 12:24:10,493] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-08 12:24:10,695] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-08 12:24:10,836] Register_05 - Step 04: Enter to Email textbox
+[2023-06-08 12:24:10,998] Register_05 - Step 05: Enter to Password textbox
+[2023-06-08 12:24:11,154] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:24:11,278] Register_05 - Step 07: Enter to Register button
+[2023-06-08 12:24:13,160] Register_05 - Step 08: Verify message display
+[2023-06-08 12:24:13,807] Register_06 - Step 01: Click Login link
+[2023-06-08 12:31:38,408] Register_01 - Step 01: Click Register link
+[2023-06-08 12:31:43,871] Register_01 - Step 02: Click Register button
+[2023-06-08 12:31:44,836] Register_01 - Step 03: Verify error message First name display
+[2023-06-08 12:31:44,948] Register_01 - Step 04: Verify error message Last name display
+[2023-06-08 12:31:45,036] Register_01 - Step 05: Verify error message Email display
+[2023-06-08 12:31:45,127] Register_01 - Step 05: Verify error message Password display
+[2023-06-08 12:31:49,424] Register_02 - Step 01: Click Register link
+[2023-06-08 12:31:50,250] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-08 12:31:50,406] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-08 12:31:50,541] Register_02 - Step 04: Enter to Email textbox
+[2023-06-08 12:31:50,666] Register_02 - Step 05: Enter to Password textbox
+[2023-06-08 12:31:50,806] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:31:50,940] Register_02 - Step 07: Click Register button
+[2023-06-08 12:31:51,740] Register_02 - Step 08: Verify error message display
+[2023-06-08 12:32:23,209] Register_03 - Step 01: Click Register link
+[2023-06-08 12:32:24,198] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-08 12:32:24,357] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-08 12:32:24,483] Register_03 - Step 04: Enter to Email textbox
+[2023-06-08 12:32:24,649] Register_03 - Step 05: Enter to Password textbox
+[2023-06-08 12:32:24,808] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:32:24,945] Register_03 - Step 07: Enter to Register button
+[2023-06-08 12:32:25,845] Register_03 - Step 08: Verify error message display
+[2023-06-08 12:32:57,279] Register_04 - Step 01: Click Register link
+[2023-06-08 12:32:58,861] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-08 12:32:58,988] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-08 12:32:59,115] Register_04 - Step 04: Enter to Email textbox
+[2023-06-08 12:32:59,246] Register_04 - Step 05: Enter to Password textbox
+[2023-06-08 12:32:59,361] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:32:59,514] Register_04 - Step 07: Enter to Register button
+[2023-06-08 12:33:00,446] Register_04 - Step 08: Verify error message display
+[2023-06-08 12:33:31,268] Register_05 - Step 01: Click Register link
+[2023-06-08 12:33:31,785] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-08 12:33:31,918] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-08 12:33:32,048] Register_05 - Step 04: Enter to Email textbox
+[2023-06-08 12:33:32,192] Register_05 - Step 05: Enter to Password textbox
+[2023-06-08 12:33:32,297] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:33:32,453] Register_05 - Step 07: Enter to Register button
+[2023-06-08 12:33:33,376] Register_05 - Step 08: Verify message display
+[2023-06-08 12:33:34,069] Register_06 - Step 01: Click Login link
+[2023-06-08 12:33:35,297] Register_06 - Step 02: Enter to Email textbox
+[2023-06-08 12:33:35,462] Register_06 - Step 03: Enter to Password textbox
+[2023-06-08 12:33:35,587] Register_06 - Step 04: Enter to Login button
+[2023-06-08 12:33:36,466] Register_06 - Step 05: Enter to Login button
+[2023-06-08 12:33:37,266] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-08 12:33:37,376] Register_06 - Step 07: Verify error message display
+[2023-06-08 12:36:31,555] Register_01 - Step 01: Click Register link
+[2023-06-08 12:36:34,175] Register_01 - Step 02: Click Register button
+[2023-06-08 12:36:34,525] Register_01 - Step 03: Verify error message First name display
+[2023-06-08 12:36:34,625] Register_01 - Step 04: Verify error message Last name display
+[2023-06-08 12:36:34,706] Register_01 - Step 05: Verify error message Email display
+[2023-06-08 12:36:34,804] Register_01 - Step 05: Verify error message Password display
+[2023-06-08 12:36:36,666] Register_02 - Step 01: Click Register link
+[2023-06-08 12:36:38,487] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-08 12:36:38,639] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-08 12:36:38,788] Register_02 - Step 04: Enter to Email textbox
+[2023-06-08 12:36:38,907] Register_02 - Step 05: Enter to Password textbox
+[2023-06-08 12:36:39,025] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:36:39,164] Register_02 - Step 07: Click Register button
+[2023-06-08 12:36:39,478] Register_02 - Step 08: Verify error message display
+[2023-06-08 12:36:40,756] Register_03 - Step 01: Click Register link
+[2023-06-08 12:36:41,897] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-08 12:36:42,021] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-08 12:36:42,164] Register_03 - Step 04: Enter to Email textbox
+[2023-06-08 12:36:42,340] Register_03 - Step 05: Enter to Password textbox
+[2023-06-08 12:36:42,498] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:36:42,622] Register_03 - Step 07: Enter to Register button
+[2023-06-08 12:36:43,426] Register_03 - Step 08: Verify error message display
+[2023-06-08 12:36:44,688] Register_04 - Step 01: Click Register link
+[2023-06-08 12:36:45,909] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-08 12:36:46,055] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-08 12:36:46,207] Register_04 - Step 04: Enter to Email textbox
+[2023-06-08 12:36:46,348] Register_04 - Step 05: Enter to Password textbox
+[2023-06-08 12:36:46,478] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:36:46,602] Register_04 - Step 07: Enter to Register button
+[2023-06-08 12:36:47,408] Register_04 - Step 08: Verify error message display
+[2023-06-08 12:36:48,436] Register_05 - Step 01: Click Register link
+[2023-06-08 12:36:49,543] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-08 12:36:49,687] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-08 12:36:49,840] Register_05 - Step 04: Enter to Email textbox
+[2023-06-08 12:36:50,000] Register_05 - Step 05: Enter to Password textbox
+[2023-06-08 12:36:50,125] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 12:36:50,248] Register_05 - Step 07: Enter to Register button
+[2023-06-08 12:36:52,359] Register_05 - Step 08: Verify message display
+[2023-06-08 12:36:53,694] Register_06 - Step 01: Click Login link
+[2023-06-08 12:36:54,926] Register_06 - Step 02: Enter to Email textbox
+[2023-06-08 12:36:55,064] Register_06 - Step 03: Enter to Password textbox
+[2023-06-08 12:36:55,195] Register_06 - Step 04: Enter to Login button
+[2023-06-08 12:36:56,043] Register_06 - Step 05: Enter to Login button
+[2023-06-08 12:36:56,573] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-08 12:36:56,672] Register_06 - Step 07: Verify error message display
+[2023-06-08 13:25:31,202] Register_01 - Step 01: Click Register link
+[2023-06-08 13:25:32,486] Register_01 - Step 02: Click Register button
+[2023-06-08 13:25:32,871] Register_01 - Step 03: Verify error message First name display
+[2023-06-08 13:25:32,977] Register_01 - Step 04: Verify error message Last name display
+[2023-06-08 13:25:33,071] Register_01 - Step 05: Verify error message Email display
+[2023-06-08 13:25:33,163] Register_01 - Step 05: Verify error message Password display
+[2023-06-08 13:25:34,113] Register_02 - Step 01: Click Register link
+[2023-06-08 13:25:34,693] Register_02 - Step 02: Enter to firstName textbox
+[2023-06-08 13:25:35,610] Register_02 - Step 03: Enter to LastName textbox
+[2023-06-08 13:25:35,781] Register_02 - Step 04: Enter to Email textbox
+[2023-06-08 13:25:35,926] Register_02 - Step 05: Enter to Password textbox
+[2023-06-08 13:25:36,060] Register_02 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 13:25:36,184] Register_02 - Step 07: Click Register button
+[2023-06-08 13:25:36,534] Register_02 - Step 08: Verify error message display
+[2023-06-08 13:25:37,211] Register_03 - Step 01: Click Register link
+[2023-06-08 13:25:37,875] Register_03 - Step 02: Enter to firstName textbox
+[2023-06-08 13:25:38,029] Register_03 - Step 03: Enter to LastName textbox
+[2023-06-08 13:25:38,173] Register_03 - Step 04: Enter to Email textbox
+[2023-06-08 13:25:38,328] Register_03 - Step 05: Enter to Password textbox
+[2023-06-08 13:25:38,460] Register_03 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 13:25:38,619] Register_03 - Step 07: Enter to Register button
+[2023-06-08 13:25:39,441] Register_03 - Step 08: Verify error message display
+[2023-06-08 13:25:40,081] Register_04 - Step 01: Click Register link
+[2023-06-08 13:25:40,538] Register_04 - Step 02: Enter to firstName textbox
+[2023-06-08 13:25:40,707] Register_04 - Step 03: Enter to LastName textbox
+[2023-06-08 13:25:40,861] Register_04 - Step 04: Enter to Email textbox
+[2023-06-08 13:25:41,021] Register_04 - Step 05: Enter to Password textbox
+[2023-06-08 13:25:41,165] Register_04 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 13:25:41,301] Register_04 - Step 07: Enter to Register button
+[2023-06-08 13:25:42,110] Register_04 - Step 08: Verify error message display
+[2023-06-08 13:25:42,681] Register_05 - Step 01: Click Register link
+[2023-06-08 13:25:43,210] Register_05 - Step 02: Enter to firstName textbox
+[2023-06-08 13:25:43,380] Register_05 - Step 03: Enter to LastName textbox
+[2023-06-08 13:25:43,529] Register_05 - Step 04: Enter to Email textbox
+[2023-06-08 13:25:43,716] Register_05 - Step 05: Enter to Password textbox
+[2023-06-08 13:25:43,841] Register_05 - Step 06: Enter to Confirm Password textbox
+[2023-06-08 13:25:43,963] Register_05 - Step 07: Enter to Register button
+[2023-06-08 13:25:44,762] Register_05 - Step 08: Verify message display
+[2023-06-08 13:25:45,302] Register_06 - Step 01: Click Login link
+[2023-06-08 13:25:45,788] Register_06 - Step 02: Enter to Email textbox
+[2023-06-08 13:25:45,957] Register_06 - Step 03: Enter to Password textbox
+[2023-06-08 13:25:46,135] Register_06 - Step 04: Enter to Login button
+[2023-06-08 13:25:46,909] Register_06 - Step 05: Enter to Login button
+[2023-06-08 13:25:47,444] Register_06 - Step 06:Verify FirstName display: Phượng
+[2023-06-08 13:25:47,556] Register_06 - Step 07: Verify error message display

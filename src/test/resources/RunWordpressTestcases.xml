@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Wordpress">
+
+  <listeners>
+    <listener class-name="commons.MethodListener" />
+    <listener class-name="reportConfig.ExtentTestListener" />
+  </listeners>
+
+  <parameter name = "userUrl" value = "http://localhost/" />
+  <parameter name = "adminUrl" value = "http://localhost/wp-admin/" />
+  <!-- chạy trên firefox -->
+  <test name="Run on Firefox browser">
+    <parameter name = "browser" value = "Firefox" />
+    <classes>
+      <class name="com.wordpress.admin.Admin_01_Post"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

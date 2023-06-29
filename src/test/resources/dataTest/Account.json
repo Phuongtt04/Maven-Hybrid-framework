@@ -1,0 +1,13 @@
+{
+  "firstName": "phuong",
+  "lastName": "test",
+  "emailAddress": "automation",
+  "webEmail": "@gmail.com",
+  "Login": {
+    "userName": "phuong",
+    "password": "123456"
+  },
+  "Register": {
+    "phoneNumber": "0988888888"
+  }
+}
