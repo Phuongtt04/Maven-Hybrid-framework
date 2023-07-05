@@ -16,7 +16,7 @@
   <test name="Run on Firefox browser">
     <parameter name = "browser" value = "firefox" />
     <classes>
-      <class name="com.nopcommerce.account.Level_22_Multi_Environment_XML"/>
+      <class name="com.nopcommerce.account.Level_23_Multi_Environment_Owner"/>
     </classes>
   </test> <!-- Test -->
 

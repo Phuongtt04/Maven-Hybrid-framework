@@ -30,16 +30,18 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
     private String firstName;
     private String lastName;
     private String password;
-    Environment env;
+    Environment environment;
 
-    @Parameters({"browser","server"})
+    @Parameters({"browser"})
     @BeforeClass
-    public void beforeClass(String browserName,String serverName) {
-        //set server into interface Environment
-        ConfigFactory.setProperty("server", serverName.toLowerCase());
-        env = ConfigFactory.create(Environment.class);
+    public void beforeClass(String browserName) {
 
-        driver = getBrowserDriver(browserName, env.getUserUrl());
+        String serverName = System.getProperty("environment");
+
+        ConfigFactory.setProperty("server", serverName.toLowerCase());
+        environment = ConfigFactory.create(Environment.class);
+
+        driver = getBrowserDriver(browserName, environment.getUserUrl());
         this.browserName = browserName.toUpperCase();
 
         faker = DataFaker.getDataFaker();
@@ -65,17 +67,17 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
         ExtentManager.getTest().log(Status.INFO, "Register_01 - Step 03: Verify error message First name display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "FirstName-error"), "First name is required.");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_01 - Step 04: Verify error message Last name display");
+        ExtentManager.getTest().log(Status.INFO, "Register_01 - Step 04: Verify error message Last name display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "LastName-error"), "Last name is required.");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_01 - Step 05: Verify error message Email display");
+        ExtentManager.getTest().log(Status.INFO, "Register_01 - Step 05: Verify error message Email display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "Email-error"), "Email is required.");
 
         //fail
-        ExtentManager.getTest().log(Status.INFO , "Register_01 - Step 05: Verify error message Password display");
+        ExtentManager.getTest().log(Status.INFO, "Register_01 - Step 05: Verify error message Password display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "Password-error"), "Password is required.");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_01 - Step 05: Verify error message Confirm display");
+        ExtentManager.getTest().log(Status.INFO, "Register_01 - Step 05: Verify error message Confirm display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "ConfirmPassword-error"), "Password is required.");
     }
 
@@ -84,28 +86,28 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
         homePage = registerPage.clickToNopCommerceLogo();
         ExtentManager.startTest(method.getName() + "-" + browserName, "Register_02_InvalidEmail");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 01: Click Register link");
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 01: Click Register link");
         registerPage = homePage.clickToRegisterLink();
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 02: Enter to firstName textbox");
-        registerPage.enterToTextBoxByID(driver, "FirstName",firstName);
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 02: Enter to firstName textbox");
+        registerPage.enterToTextBoxByID(driver, "FirstName", firstName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 03: Enter to LastName textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 03: Enter to LastName textbox");
         registerPage.enterToTextBoxByID(driver, "LastName", lastName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 04: Enter to Email textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 04: Enter to Email textbox");
         registerPage.enterToTextBoxByID(driver, "Email", "PhuongTest123@");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 05: Enter to Password textbox");
-        registerPage.enterToTextBoxByID(driver, "Password",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 05: Enter to Password textbox");
+        registerPage.enterToTextBoxByID(driver, "Password", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 06: Enter to Confirm Password textbox");
-        registerPage.enterToTextBoxByID(driver, "ConfirmPassword",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 06: Enter to Confirm Password textbox");
+        registerPage.enterToTextBoxByID(driver, "ConfirmPassword", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 07: Click Register button");
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 07: Click Register button");
         registerPage.clickToButtonByType(driver, "button-1 register-next-step-button");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_02 - Step 08: Verify error message display");
+        ExtentManager.getTest().log(Status.INFO, "Register_02 - Step 08: Verify error message display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "Email-error"), "Wrong email");
     }
 
@@ -114,28 +116,28 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
         homePage = registerPage.clickToNopCommerceLogo();
         ExtentManager.startTest(method.getName() + "-" + browserName, "Register_03_InvalidPassword");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 01: Click Register link");
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 01: Click Register link");
         registerPage = homePage.clickToRegisterLink();
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 02: Enter to firstName textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 02: Enter to firstName textbox");
         registerPage.enterToTextBoxByID(driver, "FirstName", firstName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 03: Enter to LastName textbox");
-        registerPage.enterToTextBoxByID(driver, "LastName",lastName);
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 03: Enter to LastName textbox");
+        registerPage.enterToTextBoxByID(driver, "LastName", lastName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 04: Enter to Email textbox");
-        registerPage.enterToTextBoxByID(driver,"Email",email);
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 04: Enter to Email textbox");
+        registerPage.enterToTextBoxByID(driver, "Email", email);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 05: Enter to Password textbox");
-        registerPage.enterToTextBoxByID(driver, "Password","1");
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 05: Enter to Password textbox");
+        registerPage.enterToTextBoxByID(driver, "Password", "1");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 06: Enter to Confirm Password textbox");
-        registerPage.enterToTextBoxByID(driver, "ConfirmPassword",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 06: Enter to Confirm Password textbox");
+        registerPage.enterToTextBoxByID(driver, "ConfirmPassword", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 07: Enter to Register button");
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 07: Enter to Register button");
         registerPage.clickToButtonByType(driver, "button-1 register-next-step-button");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_03 - Step 08: Verify error message display");
+        ExtentManager.getTest().log(Status.INFO, "Register_03 - Step 08: Verify error message display");
         Assert.assertEquals(registerPage.getErrorMessageField(driver, "Password-error"), "Password must meet the following rules:\nmust have at least 6 characters");
     }
 
@@ -144,29 +146,29 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
         homePage = registerPage.clickToNopCommerceLogo();
         ExtentManager.startTest(method.getName() + "-" + browserName, "Register_04_Incorrect Confirm Password");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 01: Click Register link");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 01: Click Register link");
         registerPage = homePage.clickToRegisterLink();
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 02: Enter to firstName textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 02: Enter to firstName textbox");
         registerPage.enterToTextBoxByID(driver, "FirstName", firstName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 03: Enter to LastName textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 03: Enter to LastName textbox");
         registerPage.enterToTextBoxByID(driver, "LastName", lastName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 04: Enter to Email textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 04: Enter to Email textbox");
         registerPage.enterToTextBoxByID(driver, "Email", email);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 05: Enter to Password textbox");
-        registerPage.enterToTextBoxByID(driver, "Password",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 05: Enter to Password textbox");
+        registerPage.enterToTextBoxByID(driver, "Password", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 06: Enter to Confirm Password textbox");
-        registerPage.enterToTextBoxByID(driver, "ConfirmPassword","abc");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 06: Enter to Confirm Password textbox");
+        registerPage.enterToTextBoxByID(driver, "ConfirmPassword", "abc");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 07: Enter to Register button");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 07: Enter to Register button");
         registerPage.clickToButtonByType(driver, "button-1 register-next-step-button");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_04 - Step 08: Verify error message display");
-        Assert.assertEquals(registerPage.getErrorMessageField(driver, "ConfirmPassword-error"),"The password and confirmation password do not match.");
+        ExtentManager.getTest().log(Status.INFO, "Register_04 - Step 08: Verify error message display");
+        Assert.assertEquals(registerPage.getErrorMessageField(driver, "ConfirmPassword-error"), "The password and confirmation password do not match.");
 
     }
 
@@ -175,28 +177,28 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
         homePage = registerPage.clickToNopCommerceLogo();
         ExtentManager.startTest(method.getName() + "-" + browserName, "Register_05_Success");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 01: Click Register link");
-        registerPage =  homePage.clickToRegisterLink();
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 01: Click Register link");
+        registerPage = homePage.clickToRegisterLink();
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 02: Enter to firstName textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 02: Enter to firstName textbox");
         registerPage.enterToTextBoxByID(driver, "FirstName", firstName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 03: Enter to LastName textbox");
-        registerPage.enterToTextBoxByID(driver, "LastName",lastName);
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 03: Enter to LastName textbox");
+        registerPage.enterToTextBoxByID(driver, "LastName", lastName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 04: Enter to Email textbox");
-        registerPage.enterToTextBoxByID(driver, "Email",email);
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 04: Enter to Email textbox");
+        registerPage.enterToTextBoxByID(driver, "Email", email);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 05: Enter to Password textbox");
-        registerPage.enterToTextBoxByID(driver, "Password",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 05: Enter to Password textbox");
+        registerPage.enterToTextBoxByID(driver, "Password", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 06: Enter to Confirm Password textbox");
-        registerPage.enterToTextBoxByID(driver, "ConfirmPassword",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 06: Enter to Confirm Password textbox");
+        registerPage.enterToTextBoxByID(driver, "ConfirmPassword", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 07: Enter to Register button");
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 07: Enter to Register button");
         registerPage.clickToButtonByType(driver, "button-1 register-next-step-button");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_05 - Step 08: Verify message display");
+        ExtentManager.getTest().log(Status.INFO, "Register_05 - Step 08: Verify message display");
         Assert.assertEquals(registerPage.getMessagePage(driver), "Your registration completed");
     }
 
@@ -205,29 +207,29 @@ public class Level_23_Multi_Environment_Owner extends BaseTest {
         homePage = registerPage.clickToNopCommerceLogo();
         ExtentManager.startTest(method.getName() + "-" + browserName, "Register_06_Login_Success");
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 01: Click Login link");
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 01: Click Login link");
         loginPage = homePage.clickToLoginLink();
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 02: Enter to Email textbox");
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 02: Enter to Email textbox");
         loginPage.enterToTextBoxByID(driver, "Email", email);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 03: Enter to Password textbox");
-        loginPage.enterToTextBoxByID(driver, "Password",password);
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 03: Enter to Password textbox");
+        loginPage.enterToTextBoxByID(driver, "Password", password);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 04: Enter to Login button");
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 04: Enter to Login button");
         loginPage.clickToButtonByType(driver, "button-1 login-button");
         homePage = PageGeneratorManager.getHomePageObject(driver);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 05: Enter to Login button");
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 05: Enter to Login button");
         customerPage = homePage.clickMyAccountLink();
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 06:Verify FirstName display: Phượng");
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 06:Verify FirstName display: Phượng");
         verifyEqual(customerPage.getFirstNameTextBoxAttributeValue(), firstName);
         //fail
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 07: Verify error message display");
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 07: Verify error message display");
         Assert.assertEquals(customerPage.getLastNameTextBoxAttributeValue(), lastName);
 
-        ExtentManager.getTest().log(Status.INFO , "Register_06 - Step 08: Verify email display:" + email);
+        ExtentManager.getTest().log(Status.INFO, "Register_06 - Step 08: Verify email display:" + email);
         Assert.assertEquals(customerPage.getEmailTextBoxAttributeValue(), email);
 
     }

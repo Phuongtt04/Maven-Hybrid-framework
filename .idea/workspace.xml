@@ -4,89 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="493b3e48-3f97-42ed-82ba-306544f9e475" name="Changes" comment="maven hybrid framework">
-      <change afterPath="$PROJECT_DIR$/allure-json/00c6326b-547b-4e87-9f77-b0f339efeacd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/02570af7-597a-4ccf-9bde-5746986b5eae-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/02fb14d7-29e4-4c1b-952f-6d3e33945ebc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/0426adab-006c-422e-9168-721d1ef385ff-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/043500fa-a005-4143-8f1c-7c59caff651e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/058c97ea-99e8-4a7a-8eff-9c549cccdef1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/07525cbb-a647-4a06-aca8-440b78dd6263-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/0a213792-06bc-42f5-a17e-2ab87bf75006-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/0ca2171a-f0c7-4f1b-a2e1-4c6d367c4125-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/1372a06c-bb99-4102-a705-8e85faccfe89-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/140dbad6-b7d1-44d6-b3ef-d29f29e7f8e5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/14c436ea-8278-4741-a0bc-d06dde5653ad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/1598f269-c859-4353-90de-33d56fcb60ba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/1af2db2e-7e4d-4412-a5f9-59f3d52f3d77-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/1b82bc0a-a5d4-43fd-992c-5dcfa1aafb4f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/1ba21443-0982-432b-bd55-1d4e6f4e62d7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/2363355d-5d93-4024-85fe-2d30d8a5aff4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/248b821c-7a5d-458e-ba4f-2083aedeba5c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/24ee85d3-8c33-4e57-95ec-a0aed65b74cb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/3564d694-0d42-4eed-88a2-3ca0d6f72bbe-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/3ba0dd4a-1f73-4e6d-b9f7-6a8e77c29a57-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/42bdd425-daad-4b5e-bd25-0b89daabab0c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/460d9c60-e025-4c59-84dd-4c813337b993-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/4860c5e7-d3ab-4063-9a97-140316c462e0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/51de362b-fe13-4767-9cf9-9715328785a7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/5618115e-f75a-4fca-a670-0c9d54d42df1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/594c2f37-abef-482e-896a-2a23f783aee8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/59d0a729-f39e-4deb-a106-b2ce86d6ed2a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/5a5effcd-ed86-4ecf-84c3-b2a3786e635b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/5b701a24-2a48-440f-ba7a-8ffd2506add4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/60bc2668-558d-46ee-98f0-a63c3a0cf61b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/60ffb78c-60c4-4a74-bf85-49245795e404-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/7b81df70-8f90-490d-bb13-28fe19f6193e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/849d1bdc-608d-4546-a979-e49e73d9d0b6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/85cf2759-513e-41a1-b29a-b2383855cdd0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/89984cfc-b883-4e97-aa30-391e46219643-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/8d76a96d-4ec4-4689-aa52-b97dbcede18e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/8e51ab93-c6c1-4438-9872-21117b2201a3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/9356e00f-49c9-4bdc-90d1-c00ff0c3fa3d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/9440d148-b411-4f00-b4ea-cfe3e4f0692d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/9aed9c1a-196a-454c-92fa-dcf5db5589ad-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/9b28ef98-dbe5-4f31-8e83-8a44ef82b291-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/9bc81f8b-3b2f-45d5-aa1e-30c3f743ee4d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/9bf3c353-ec20-4982-ba2b-95860126c088-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/a01d66b9-aa48-4191-809a-b8c42176dd70-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/a0404978-52ed-4788-9bd2-1208f6fe91ba-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/a05efe8d-ff4d-4623-9f27-9e9a45425373-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/a4e7d92c-3bb7-457b-a241-e4e1d131e75a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/a7de1f26-b2cb-41af-b45a-4f95dcbb6267-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/b87f0276-195a-42ae-818d-3f238bfe4286-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/c44edb43-dee8-40b8-9632-d104894ae63e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/d04333cc-e0ec-4190-b144-354adc137348-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/d15511d2-ab16-4745-a74a-ca6b96b37163-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/d2a60c8f-3b88-4a9c-95cb-832df609efc7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/d551485c-6a26-43fa-8ad8-dd0380721409-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/dc09a28d-642d-4902-8297-f3667c4a28bf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/dcb158b3-15ab-47ab-ac48-21bcdaf60aba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/e3de3d8b-6548-4d4f-8f92-4a38f4af06f5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/e81e123f-ccd1-43de-b286-c51ddecb1df6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/f046ec2c-fb0e-4cc5-8f73-c3f9f8256fba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/f289da2a-1ce8-476d-a99d-95a0774a1999-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/f538757a-3cfc-431f-a154-7f90b48b6c29-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/fe5def73-3619-49d4-b811-94cd2a9aee7b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-json/ff19c253-5821-495e-ae42-dede7899b4da-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentConfig/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentConfig/live.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentConfig/staging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentConfig/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentXML/RunNopCommerDEV.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentXML/RunNopCommerLIVE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentXML/RunNopCommerSTAGING.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environmentXML/RunNopCommerTEST.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/EnvironmentName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_22_Multi_Environment_XML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_23_Multi_Environment_Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/RunMultiServer.xml" afterDir="false" />
+    <list default="true" id="493b3e48-3f97-42ed-82ba-306544f9e475" name="Changes" comment="run env xml or pom profile">
+      <change afterPath="$PROJECT_DIR$/allure-json/0326e77c-3832-4784-a3ea-266393f8205e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/2d05f823-ef4c-4fb1-ad48-224f93c63d46-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/3d5a082e-b929-40e1-b4c8-29833a368629-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/55e74651-84bd-4fe8-af4b-7cff7ee167f2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/56d1504e-ead2-4f0e-90c4-e58e292c1754-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/5de9cd48-4744-485c-8cda-a18e88020d5c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/681b4da2-b39c-465f-a800-12da5485ef59-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/7e63607d-fafc-4b83-9461-d895682614df-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/a2883226-9f84-4f93-b72e-af6dafc38916-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/a7435ae7-0700-4f8c-9faa-b8017099e167-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/b313024d-886f-42a9-9863-363d344863f4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/b97ef431-5a2b-4e51-a1c5-def54d0e4813-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/be8852a8-d053-48cc-bd8d-4dce43573b80-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/c66c4195-a1e6-4080-9db1-5742a40bfd91-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-json/ddc76df9-4d55-46a0-81b7-8fa22d6faf3e-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlExtentReport/ExtentReportV5.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlExtentReport/ExtentReportV5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commons/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commons/GlobalConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commons/GlobalConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_23_Multi_Environment_Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/account/Level_23_Multi_Environment_Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RunMultiServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RunMultiServer.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="run_environment_xml_pom_surefire_plugins" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,6 +83,118 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunMultiServer.xml">
+    <configuration name="Run on dev env" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="DEV" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run on live env" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="LIVE" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run on staging env" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="STAGING" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run on test env" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="TEST" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunMultiServer.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Maven-Hybrid-Framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RunMultiServer.xml" />
@@ -175,11 +225,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.Run on dev env" />
+      <item itemvalue="Maven.Run on test env" />
+      <item itemvalue="Maven.Run on staging env" />
+      <item itemvalue="Maven.Run on live env" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunMultiServer.xml" />
+      <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunTestcases.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunTestcases.xml" />
+        <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunMultiServer.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunMultiServer.xml" />
         <item itemvalue="TestNG.C:/Users/Phuong Chocopie/PHUONGTT/Fullstack_selenium_Java/04_Maven Hybrid Framework/Maven-Hybrid-framework/src/test/resources/RunTestcases.xml" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688030623897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="run env xml or pom surefire plugins">
+      <option name="closed" value="true" />
+      <created>1688541983581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688541983581</updated>
+    </task>
+    <task id="LOCAL-00003" summary="run env xml or pom profile">
+      <option name="closed" value="true" />
+      <created>1688544471900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688544471900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +305,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maven hybrid framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven hybrid framework" />
+    <MESSAGE value="run env xml or pom surefire plugins" />
+    <MESSAGE value="run env xml or pom profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="run env xml or pom profile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
