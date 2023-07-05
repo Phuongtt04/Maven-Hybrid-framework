@@ -11,11 +11,13 @@ public class GlobalConstants {
 
     //app infor user
     public static final String DEV_USER_URL = "https://dev.nopcommerce.com/";
+    public static final String TEST_USER_URL = "https://test.nopcommerce.com/";
     public static final String STAGING_USER_URL = "https://staging.nopcommerce.com/";
     public static final String LIVE_USER_URL = "https://demo.nopcommerce.com/";
 
     //app infor ADMIN
     public static final String DEV_ADMIN_URL = "https://admin-dev.nopcommerce.com/";
+    public static final String TEST_ADMIN_URL = "https://admin-test.nopcommerce.com/";
     public static final String STAGING_ADMIN_URL = "https://admin-staging.nopcommerce.com/";
     public static final String LIVE_ADMIN_URL = "https://admin-demo.nopcommerce.com/";
     public static final String ADMIN_USERNAME = "admin@yourstore.com";

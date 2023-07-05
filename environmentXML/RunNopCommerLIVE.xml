@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerce">
+
+  <parameter name="server" value="live"/>
+  <parameter name="role" value="user"/>
+
+  <listeners>
+    <listener class-name="commons.MethodListener" />
+<!--    <listener class-name="reportConfig.ReportNGListener" />-->
+    <listener class-name="reportConfig.ExtentTestListener" />
+<!--    <listener class-name="reportConfig.AllureTestListener" />-->
+<!--    <listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+  </listeners>
+
+  <!-- chạy trên firefox -->
+  <test name="Run on Firefox browser">
+    <parameter name = "browser" value = "firefox" />
+    <classes>
+      <class name="com.nopcommerce.account.Level_22_Multi_Environment_XML"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
