@@ -74,6 +74,74 @@ public class BaseTest {
         return driver;
     }
 
+    protected WebDriver getBrowserDriver(String browserName, String serverName, String roleName) {
+
+        // Factory pattern
+        //Enum
+        BrowserName browser = BrowserName.valueOf(browserName.toUpperCase());
+        switch (browser) {
+            case FIREFOX:
+                driver = WebDriverManager.firefoxdriver().create();
+                break;
+            case CHROME:
+                driver = WebDriverManager.chromedriver().create();
+                break;
+            case EDGE:
+                driver = WebDriverManager.edgedriver().create();
+                break;
+            case OPERA:
+                driver = WebDriverManager.operadriver().create();
+                break;
+            default:
+                throw new RuntimeException("Please enter the connect Browser name!");
+        }
+
+        driver.get(getAppUrlByRoleName(serverName, roleName));
+        driver.manage().window().setPosition(new Point(0,0));
+        driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+        return driver;
+    }
+
+    private String getAppUrlByRoleName(String serverName, String roleName){
+        if (roleName.toLowerCase().equals("user")){
+            return  getAppUserUrlByServerName(serverName);
+        } else {
+            return getAppAdminUrlByServerName(serverName);
+        }
+    }
+
+    private String getAppUserUrlByServerName(String serverName){
+        EnvironmentName serverList = EnvironmentName.valueOf(serverName.toUpperCase());
+        switch (serverList) {
+            case DEV:
+                return GlobalConstants.DEV_USER_URL;
+            case TEST:
+                return GlobalConstants.TEST_USER_URL;
+            case STAGING:
+                return GlobalConstants.STAGING_USER_URL;
+            case LIVE:
+                return GlobalConstants.LIVE_USER_URL;
+            default:
+                throw new RuntimeException("Server name is not valid!");
+        }
+    }
+
+    private String getAppAdminUrlByServerName(String serverName){
+        EnvironmentName serverList = EnvironmentName.valueOf(serverName.toUpperCase());
+        switch (serverList) {
+            case DEV:
+                return GlobalConstants.DEV_ADMIN_URL;
+            case TEST:
+                return GlobalConstants.TEST_ADMIN_URL;
+            case STAGING:
+                return GlobalConstants.STAGING_ADMIN_URL;
+            case LIVE:
+                return GlobalConstants.LIVE_ADMIN_URL;
+            default:
+                throw new RuntimeException("Server name is not valid!");
+        }
+    }
+
     protected String randomEmail() {
         Random rand = new Random();
         int rd = rand.nextInt(999);
